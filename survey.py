@@ -1,6 +1,6 @@
 # coding=utf-8
 from inspect import getargspec
-from nekbot.utils.iter import append_or_update
+from .iter import append_or_update
 
 
 def kwargs_function(function):

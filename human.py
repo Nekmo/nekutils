@@ -1,6 +1,9 @@
 # coding=utf-8
 import datetime
-from nekbot import _
+try:
+    from nekbot import _
+except:
+    def _(x): return x
 
 __author__ = 'nekmo'
 

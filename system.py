@@ -3,7 +3,7 @@ import sys
 import os
 import shlex
 import subprocess
-from nekbot.utils.modules import get_module
+from .modules import get_module
 
 __author__ = 'nekmo'
 
