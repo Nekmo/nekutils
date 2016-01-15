@@ -1,8 +1,8 @@
 import logging
 import os
 import sys
-from nekutils.settings import get_settings
-from nekutils.strings import is_chars, regex_default
+from .settings import get_settings
+from .strings import is_chars, regex_default
 
 __author__ = 'nekmo'
 
