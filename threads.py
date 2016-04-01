@@ -2,8 +2,10 @@ import threading
 
 __author__ = 'nekmo'
 
+
 class TimeLimitExpired(Exception):
     pass
+
 
 def timelimit(timeout, func, args=(), kwargs=None):
     """ Run func with the given timeout. If func didn't finish running

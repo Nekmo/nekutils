@@ -10,6 +10,13 @@ class RestartRename(Exception):
     pass
 
 
+def path_split_unix(path):
+    path, name = os.path.split(path)
+    if os.sep != '/':
+        path = path.replace(os.path, '/')
+    return path, name
+
+
 def copytree(src, dst, symlinks=False, ignore=None):
     for item in os.listdir(src):
         s = os.path.join(src, item)

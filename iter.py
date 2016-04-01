@@ -1,5 +1,6 @@
 __author__ = 'nekmo'
 
+
 def append_or_update(original_list, new_list, override=True):
     for i, arg in enumerate(new_list):
         if i < len(original_list) and override:
